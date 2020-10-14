@@ -1,0 +1,39 @@
+{
+    "name": "henrick/duoduoke",
+    "description": "这个一个自己封装的【拼多多】多多客API接口SDK",
+    "type": "library",
+    "keywords": [
+        "拼多多",
+        "多多客",
+        "拼多多SDK"
+    ],
+    "homepage": "https://duoduoke.johnyzone.com/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Johny He",
+            "email": "henrick@vip.qq.com",
+            "role": "leader"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/henrickcn/duoduoke"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0.*",
+        "linslin/yii2-curl": "*"
+    },
+    "config": {
+        "platform": {
+            "php": "7.0.0"
+        },
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Henrick\\Duoduoke\\": "src/"
+        }
+    }
+}

@@ -19,7 +19,6 @@
     "support": {
         "issues": "https://github.com/henrickcn/duoduoke"
     },
-    "minimum-stability": "dev",
     "require": {
         "php": "^7.0.*",
         "linslin/yii2-curl": "*"

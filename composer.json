@@ -7,6 +7,7 @@
         "多多客",
         "拼多多SDK"
     ],
+    "minimum-stability": "dev",
     "homepage": "https://duoduoke.johnyzone.com/",
     "license": "MIT",
     "authors": [
@@ -20,15 +21,7 @@
         "issues": "https://github.com/henrickcn/duoduoke"
     },
     "require": {
-        "php": "^7.0.*",
         "linslin/yii2-curl": "*"
-    },
-    "config": {
-        "platform": {
-            "php": "7.0.0"
-        },
-        "optimize-autoloader": true,
-        "sort-packages": true
     },
     "autoload": {
         "psr-4": {
